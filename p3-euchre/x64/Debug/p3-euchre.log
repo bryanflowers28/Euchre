@@ -1,0 +1,68 @@
+﻿  Pack.cpp
+  Pack_public_test.cpp
+  Pack_tests.cpp
+  Player.cpp
+  euchre.cpp
+  Generating Code...
+Card_tests.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TestFailure const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVTestFailure@@@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "void __cdecl assert_almost_equal(double,double,double,int)" (?assert_almost_equal@@YAXNNNH@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "void __cdecl assert_false(bool,int)" (?assert_false@@YAX_NH@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "void __cdecl assert_true(bool,int)" (?assert_true@@YAX_NH@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl demangle(char const *)" (?demangle@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "private: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl TestSuite::get_test_names_to_run(int,char * *)" (?get_test_names_to_run@TestSuite@@AEAA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPEAPEAD@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "public: void __cdecl TestCase::print(bool)" (?print@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "public: void __cdecl TestCase::run(bool)" (?run@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "public: int __cdecl TestSuite::run_tests(int,char * *)" (?run_tests@TestSuite@@QEAAHHPEAPEAD@Z) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: main already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "private: static bool TestSuite::incomplete" (?incomplete@TestSuite@@0_NA) already defined in Card_public_test.obj
+Card_tests.obj : error LNK2005: "private: static class TestSuite * TestSuite::instance" (?instance@TestSuite@@0PEAV1@EA) already defined in Card_public_test.obj
+euchre.obj : error LNK2005: main already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TestFailure const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVTestFailure@@@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "void __cdecl assert_almost_equal(double,double,double,int)" (?assert_almost_equal@@YAXNNNH@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "void __cdecl assert_false(bool,int)" (?assert_false@@YAX_NH@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "void __cdecl assert_true(bool,int)" (?assert_true@@YAX_NH@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl demangle(char const *)" (?demangle@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "private: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl TestSuite::get_test_names_to_run(int,char * *)" (?get_test_names_to_run@TestSuite@@AEAA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPEAPEAD@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "public: void __cdecl TestCase::print(bool)" (?print@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "public: void __cdecl TestCase::run(bool)" (?run@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "public: int __cdecl TestSuite::run_tests(int,char * *)" (?run_tests@TestSuite@@QEAAHHPEAPEAD@Z) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: main already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "private: static bool TestSuite::incomplete" (?incomplete@TestSuite@@0_NA) already defined in Card_public_test.obj
+Pack_public_test.obj : error LNK2005: "private: static class TestSuite * TestSuite::instance" (?instance@TestSuite@@0PEAV1@EA) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TestFailure const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVTestFailure@@@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "void __cdecl assert_almost_equal(double,double,double,int)" (?assert_almost_equal@@YAXNNNH@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "void __cdecl assert_false(bool,int)" (?assert_false@@YAX_NH@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "void __cdecl assert_true(bool,int)" (?assert_true@@YAX_NH@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl demangle(char const *)" (?demangle@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "private: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl TestSuite::get_test_names_to_run(int,char * *)" (?get_test_names_to_run@TestSuite@@AEAA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPEAPEAD@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "public: void __cdecl TestCase::print(bool)" (?print@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "public: void __cdecl TestCase::run(bool)" (?run@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "public: int __cdecl TestSuite::run_tests(int,char * *)" (?run_tests@TestSuite@@QEAAHHPEAPEAD@Z) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: main already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "private: static bool TestSuite::incomplete" (?incomplete@TestSuite@@0_NA) already defined in Card_public_test.obj
+Pack_tests.obj : error LNK2005: "private: static class TestSuite * TestSuite::instance" (?instance@TestSuite@@0PEAV1@EA) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TestFailure const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVTestFailure@@@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "void __cdecl assert_almost_equal(double,double,double,int)" (?assert_almost_equal@@YAXNNNH@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "void __cdecl assert_false(bool,int)" (?assert_false@@YAX_NH@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "void __cdecl assert_true(bool,int)" (?assert_true@@YAX_NH@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl demangle(char const *)" (?demangle@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "private: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl TestSuite::get_test_names_to_run(int,char * *)" (?get_test_names_to_run@TestSuite@@AEAA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPEAPEAD@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "public: void __cdecl TestCase::print(bool)" (?print@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "public: void __cdecl TestCase::run(bool)" (?run@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "public: int __cdecl TestSuite::run_tests(int,char * *)" (?run_tests@TestSuite@@QEAAHHPEAPEAD@Z) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: main already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "private: static bool TestSuite::incomplete" (?incomplete@TestSuite@@0_NA) already defined in Card_public_test.obj
+Player_public_test.obj : error LNK2005: "private: static class TestSuite * TestSuite::instance" (?instance@TestSuite@@0PEAV1@EA) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TestFailure const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVTestFailure@@@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "void __cdecl assert_almost_equal(double,double,double,int)" (?assert_almost_equal@@YAXNNNH@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "void __cdecl assert_false(bool,int)" (?assert_false@@YAX_NH@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "void __cdecl assert_true(bool,int)" (?assert_true@@YAX_NH@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl demangle(char const *)" (?demangle@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "private: class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl TestSuite::get_test_names_to_run(int,char * *)" (?get_test_names_to_run@TestSuite@@AEAA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPEAPEAD@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "public: void __cdecl TestCase::print(bool)" (?print@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "public: void __cdecl TestCase::run(bool)" (?run@TestCase@@QEAAX_N@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "public: int __cdecl TestSuite::run_tests(int,char * *)" (?run_tests@TestSuite@@QEAAHHPEAPEAD@Z) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: main already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "private: static bool TestSuite::incomplete" (?incomplete@TestSuite@@0_NA) already defined in Card_public_test.obj
+Player_tests.obj : error LNK2005: "private: static class TestSuite * TestSuite::instance" (?instance@TestSuite@@0PEAV1@EA) already defined in Card_public_test.obj
+C:\Users\dawnu\Desktop\EECS 280\p3-euchre\x64\Debug\p3-euchre.exe : fatal error LNK1169: one or more multiply defined symbols found
